@@ -4,7 +4,6 @@ window.ACCESS_POINT = "https://api.edamam.com/api/recipes/v2";
 const /** {String} */ APP_ID = "Your APP ID";
 const /** {String} */ API_KEY = "Your APP KEY";
 const /** {String} */ TYPE = "public";
-
 /**
  * @param {Array} queries Query array
  * @param {Function} successCallback Success callback function

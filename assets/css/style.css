@@ -512,6 +512,7 @@ main {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow-y: hidden;
   transition: var(--transition-short);
 }
@@ -1897,4 +1898,22 @@ footer a:hover {
 
 [data-theme="dark"] .preload {
   background-color: black;
+}
+
+@media screen and (max-width: 530px) {
+  .preload .text {
+    font-size: calc(2rem + 2vw);
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .preload .text {
+    font-size: calc(1rem + 1vw);
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .preload .text {
+    font-size: calc(0.7rem + 0.7vw);
+  }
 }
