@@ -1917,3 +1917,26 @@ footer a:hover {
     font-size: calc(0.7rem + 0.7vw);
   }
 }
+
+/*-----------------------------------*\
+  /* #SCROLLBAR */
+
+:root {
+  --scrollbar-thumb-color: #3963ff; /* Default color */
+}
+
+[data-theme="dark"] {
+  --scrollbar-thumb-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+}
