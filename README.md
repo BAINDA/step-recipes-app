@@ -14,7 +14,7 @@
 
 ## 🖼️ Preview
 
-![Step Recipes Preview](https://github.com/user-attachments/assets/be8c3b44-ece3-4d05-ba10-e39653364698)
+![Step Recipes Preview](https://github.com/user-attachments/assets/25ead944-3c56-403b-a696-234e56d3c2cf)
 
 ---
 
